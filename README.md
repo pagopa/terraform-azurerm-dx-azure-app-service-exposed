@@ -2,6 +2,24 @@
 
 This module is used to create an Azure App Service, allowing it to be configured as exposed.
 
+## Graph
+
+```mermaid
+graph LR
+
+subgraph Hosting Plan
+  ServicePlan["Service Plan"]
+end
+
+subgraph Web Application
+  WebApp["Linux Web App"]
+  WebAppSlot["Web App Slot"]
+end
+
+WebApp --> ServicePlan
+WebAppSlot --> WebApp
+````
+
 <!-- markdownlint-disable -->
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
