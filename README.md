@@ -4,7 +4,7 @@ This module is used to create an Azure App Service, allowing it to be configured
 
 ## Graph
 
-![Terraform graph](output.png)
+![Terraform graph](./output.png)
 
 <!-- markdownlint-disable -->
 <!-- BEGIN_TF_DOCS -->
