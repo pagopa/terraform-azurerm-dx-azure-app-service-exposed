@@ -4,21 +4,7 @@ This module is used to create an Azure App Service, allowing it to be configured
 
 ## Graph
 
-```mermaid
-graph LR
-
-subgraph Hosting Plan
-  ServicePlan["Service Plan"]
-end
-
-subgraph Web Application
-  WebApp["Linux Web App"]
-  WebAppSlot["Web App Slot"]
-end
-
-WebApp --> ServicePlan
-WebAppSlot --> WebApp
-````
+![Terraform graph](output.png)
 
 <!-- markdownlint-disable -->
 <!-- BEGIN_TF_DOCS -->

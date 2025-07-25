@@ -1,0 +1,13 @@
+graph LR
+
+subgraph Hosting Plan
+  ServicePlan["Service Plan"]
+end
+
+subgraph Web Application
+  WebApp["Linux Web App"]
+  WebAppSlot["Web App Slot"]
+end
+
+WebApp --> ServicePlan
+WebAppSlot --> WebApp
