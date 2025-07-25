@@ -4,10 +4,9 @@ This module is used to create an Azure App Service, allowing it to be configured
 
 ## Graph
 
-<p align="center">
-    <img src="https://github.com/pagopa/terraform-azurerm-dx-azure-app-service-exposed/blob/main/output.png">
-</p>
-
+![Terraform graph 1](./output.svg)
+![Terraform graph 2](https://raw.githubusercontent.com/pagopa/terraform-azurerm-dx-azure-app-service-exposed/main/output.png)
+![Terraform graph 3](https://raw.githubusercontent.com/pagopa/terraform-azurerm-dx-azure-app-service-exposed/main/output.svg)
 <!-- markdownlint-disable -->
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
